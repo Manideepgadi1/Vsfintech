@@ -1,0 +1,71 @@
+{
+  "apps": [
+    {
+      "name": "vsfintech-backend",
+      "cwd": "/var/www/vsfintech/VSFintech-Platform/backend",
+      "script": "venv/bin/uvicorn",
+      "args": "main:app --host 0.0.0.0 --port 8000",
+      "interpreter": "none",
+      "autorestart": true,
+      "watch": false,
+      "max_memory_restart": "1G",
+      "env": {
+        "NODE_ENV": "production"
+      }
+    },
+    {
+      "name": "bar-line-backend",
+      "cwd": "/var/www/vsfintech/Bar-Line/backend",
+      "script": "venv/bin/gunicorn",
+      "args": "-w 2 -b 0.0.0.0:8001 app:app",
+      "interpreter": "none",
+      "autorestart": true,
+      "watch": false
+    },
+    {
+      "name": "heatmap-backend",
+      "cwd": "/var/www/vsfintech/Heatmap/backend",
+      "script": "venv/bin/uvicorn",
+      "args": "main:app --host 0.0.0.0 --port 8002",
+      "interpreter": "none",
+      "autorestart": true,
+      "watch": false
+    },
+    {
+      "name": "risk-reward",
+      "cwd": "/var/www/vsfintech/Risk-Reward",
+      "script": "venv/bin/gunicorn",
+      "args": "-w 2 -b 0.0.0.0:5000 app:app",
+      "interpreter": "none",
+      "autorestart": true,
+      "watch": false
+    },
+    {
+      "name": "riskometer",
+      "cwd": "/var/www/vsfintech/Riskometer",
+      "script": "venv/bin/uvicorn",
+      "args": "main:app --host 0.0.0.0 --port 5002",
+      "interpreter": "none",
+      "autorestart": true,
+      "watch": false
+    },
+    {
+      "name": "pms-screener",
+      "cwd": "/var/www/vsfintech/fundscreener",
+      "script": "venv/bin/gunicorn",
+      "args": "-w 2 -b 0.0.0.0:3003 app:app",
+      "interpreter": "none",
+      "autorestart": true,
+      "watch": false
+    },
+    {
+      "name": "alphanifty-backend",
+      "cwd": "/var/www/vsfintech/ALPHANIFTYY/backend",
+      "script": "venv/bin/gunicorn",
+      "args": "-w 2 -b 0.0.0.0:8003 app:app",
+      "interpreter": "none",
+      "autorestart": true,
+      "watch": false
+    }
+  ]
+}
