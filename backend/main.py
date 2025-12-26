@@ -1,11 +1,17 @@
 from fastapi import FastAPI
 from fastapi.middleware.cors import CORSMiddleware
 
-from database.session import Base, engine
-from routers import baskets, formulas, indices
+from routers import formulas, indices
 
-
-Base.metadata.create_all(bind=engine)
+# Optional: Database for baskets feature (disabled for now)
+try:
+    from database.session import Base, engine
+    from routers import baskets
+    Base.metadata.create_all(bind=engine)
+    BASKETS_ENABLED = True
+except Exception as e:
+    print(f"⚠️  Database not available, baskets feature disabled: {e}")
+    BASKETS_ENABLED = False
 
 app = FastAPI(title="VS Fintech Platform API", version="0.1.0")
 
@@ -18,7 +24,10 @@ app.add_middleware(
 )
 
 
-app.include_router(baskets.router)
+# Include baskets router only if database is available
+if BASKETS_ENABLED:
+    app.include_router(baskets.router)
+
 app.include_router(formulas.router)
 app.include_router(indices.router)
 
