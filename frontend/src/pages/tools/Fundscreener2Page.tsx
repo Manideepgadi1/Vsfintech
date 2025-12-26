@@ -4,13 +4,13 @@ export const Fundscreener2Page: FC = () => {
   return (
     <div className="space-y-8">
       <section className="space-y-3">
-        <p className="text-xs font-semibold tracking-[0.2em] text-emerald-500">ADVANCED FUND SCREENER</p>
+        <p className="text-xs font-semibold tracking-[0.2em] text-emerald-500">PMS SCREENER</p>
         <h1 className="text-3xl font-semibold tracking-tight text-slate-900 dark:text-slate-50 sm:text-4xl">
-          Advanced Multi-Factor Fund Screening
+          Portfolio Management Services Screener
         </h1>
         <p className="max-w-3xl text-sm leading-relaxed text-slate-600 dark:text-slate-300">
-          Enhanced version of our fund screener with advanced filters, comparative analysis,
-          and portfolio overlap detection.
+          Advanced screening tool for Portfolio Management Services with comprehensive filters, 
+          comparative analysis, and portfolio overlap detection.
         </p>
       </section>
 

@@ -139,8 +139,7 @@ export function Navbar() {
                         Fundoscope ⭐
                       </Link>
                       {[
-                        { name: 'Advanced Fund Screener', path: '/tools/fundscreener2' },
-                        { name: 'Basic Fund Screener', path: '/tools/fund-screener' },
+                        { name: 'PMS Screener', path: '/tools/fundscreener2' },
                         { name: 'Fund Selection', path: '/tools/fund-selection' },
                         { name: 'Stock Radar', path: '/tools/stock-radar' },
                         { name: 'NASDAQ', path: '/tools/nasdaq' },

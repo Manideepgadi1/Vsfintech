@@ -11,7 +11,7 @@ import { RefundPolicyPage } from './pages/RefundPolicyPage';
 import { TermsPage } from './pages/TermsPage';
 import { ShippingPolicyPage } from './pages/ShippingPolicyPage';
 import { FundoscopePage } from './pages/tools/FundoscopePage';
-import { FundScreenerPage } from './pages/tools/FundScreenerPage';
+
 import { Fundscreener2Page } from './pages/tools/Fundscreener2Page';
 import { FundSelectionPage } from './pages/tools/FundSelectionPage';
 import { StockRadarPage } from './pages/tools/StockRadarPage';
@@ -40,7 +40,7 @@ export default function App() {
         <Route path="/terms-and-conditions" element={<TermsPage />} />
         <Route path="/shipping-policy" element={<ShippingPolicyPage />} />
         <Route path="/tools/fundoscope" element={<FundoscopePage />} />
-        <Route path="/tools/fund-screener" element={<FundScreenerPage />} />
+
         <Route path="/tools/fundscreener2" element={<Fundscreener2Page />} />
         <Route path="/tools/fund-selection" element={<FundSelectionPage />} />
         <Route path="/tools/stock-radar" element={<StockRadarPage />} />
