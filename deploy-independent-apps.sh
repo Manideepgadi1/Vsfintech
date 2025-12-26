@@ -53,13 +53,22 @@ echo ""
 echo -e "${YELLOW}2. Bar-Line (Right Amount) - Independent Deployment${NC}"
 cd $BASE_DIR/Bar-Line
 
-cp src/main.tsx src/main.tsx.backup 2>/dev/null || true
-cp vite.config.ts vite.config.ts.backup 2>/dev/null || true
+# Detect vite config file
+VITE_CONFIG=""
+if [ -f "vite.config.ts" ]; then
+    VITE_CONFIG="vite.config.ts"
+elif [ -f "vite.config.js" ]; then
+    VITE_CONFIG="vite.config.js"
+fi
 
-if grep -q "base:" vite.config.ts; then
-    sed -i "s|base:.*|base: '/',|" vite.config.ts
-else
-    sed -i "/export default defineConfig({/a\\  base: '/'," vite.config.ts
+if [ -n "$VITE_CONFIG" ]; then
+    cp "$VITE_CONFIG" "$VITE_CONFIG.backup" 2>/dev/null || true
+    
+    if grep -q "base:" "$VITE_CONFIG"; then
+        sed -i "s|base:.*|base: '/',|" "$VITE_CONFIG"
+    else
+        sed -i "/export default defineConfig({/a\\  base: '/'," "$VITE_CONFIG"
+    fi
 fi
 
 echo "VITE_API_URL=http://82.25.105.18:8001" > .env
@@ -75,13 +84,22 @@ echo ""
 echo -e "${YELLOW}3. Heatmap (Sector Heatmap) - Independent Deployment${NC}"
 cd $BASE_DIR/Heatmap/frontend
 
-cp src/main.tsx src/main.tsx.backup 2>/dev/null || true
-cp vite.config.ts vite.config.ts.backup 2>/dev/null || true
+# Detect vite config file
+VITE_CONFIG=""
+if [ -f "vite.config.ts" ]; then
+    VITE_CONFIG="vite.config.ts"
+elif [ -f "vite.config.js" ]; then
+    VITE_CONFIG="vite.config.js"
+fi
 
-if grep -q "base:" vite.config.ts; then
-    sed -i "s|base:.*|base: '/',|" vite.config.ts
-else
-    sed -i "/export default defineConfig({/a\\  base: '/'," vite.config.ts
+if [ -n "$VITE_CONFIG" ]; then
+    cp "$VITE_CONFIG" "$VITE_CONFIG.backup" 2>/dev/null || true
+    
+    if grep -q "base:" "$VITE_CONFIG"; then
+        sed -i "s|base:.*|base: '/',|" "$VITE_CONFIG"
+    else
+        sed -i "/export default defineConfig({/a\\  base: '/'," "$VITE_CONFIG"
+    fi
 fi
 
 echo "VITE_API_URL=http://82.25.105.18:8002" > .env
