@@ -204,6 +204,146 @@ export function HomePage() {
         </div>
       </section>
 
+      {/* Fundoscope - Investment Tools */}
+      <section className="space-y-6 animate-fade-in-up">
+        <div className="text-center space-y-3">
+          <h2 className="text-2xl font-bold tracking-tight text-slate-900 dark:text-slate-50">
+            <span className="text-primary-600 dark:text-primary-500">Fundoscope</span> - Investment Analysis Tools
+          </h2>
+          <p className="text-sm text-slate-600 dark:text-slate-300 max-w-2xl mx-auto">
+            Comprehensive suite of tools to analyze, compare, and select the right investment options for your portfolio.
+          </p>
+        </div>
+        <div className="grid gap-4 sm:grid-cols-2 lg:grid-cols-4">
+          <a
+            href="http://82.25.105.18:9004"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="card-glass group flex flex-col items-center justify-center px-6 py-6 text-center shadow-md transition-all duration-300 hover:shadow-2xl hover:scale-110 hover:border-primary-400 hover:bg-gradient-to-br hover:from-primary-50 hover:to-primary-100/50 dark:hover:bg-slate-800 animate-scale-in"
+          >
+            <div className="w-12 h-12 rounded-xl bg-gradient-to-br from-blue-500 to-blue-600 flex items-center justify-center mb-3 shadow-lg group-hover:shadow-xl group-hover:scale-110 transition-all">
+              <svg className="w-6 h-6 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 19v-6a2 2 0 00-2-2H5a2 2 0 00-2 2v6a2 2 0 002 2h2a2 2 0 002-2zm0 0V9a2 2 0 012-2h2a2 2 0 012 2v10m-6 0a2 2 0 002 2h2a2 2 0 002-2m0 0V5a2 2 0 012-2h2a2 2 0 012 2v14a2 2 0 01-2 2h-2a2 2 0 01-2-2z" />
+              </svg>
+            </div>
+            <h3 className="font-bold text-sm text-slate-900 dark:text-slate-50 group-hover:text-primary-600 dark:group-hover:text-primary-400">Right Sector</h3>
+            <p className="text-xs text-slate-600 dark:text-slate-400 mt-1">Sector Analysis Dashboard</p>
+          </a>
+
+          <a
+            href="http://82.25.105.18:9002"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="card-glass group flex flex-col items-center justify-center px-6 py-6 text-center shadow-md transition-all duration-300 hover:shadow-2xl hover:scale-110 hover:border-primary-400 hover:bg-gradient-to-br hover:from-green-50 hover:to-green-100/50 dark:hover:bg-slate-800 animate-scale-in"
+            style={{ animationDelay: '0.1s' }}
+          >
+            <div className="w-12 h-12 rounded-xl bg-gradient-to-br from-green-500 to-green-600 flex items-center justify-center mb-3 shadow-lg group-hover:shadow-xl group-hover:scale-110 transition-all">
+              <svg className="w-6 h-6 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M12 8c-1.657 0-3 .895-3 2s1.343 2 3 2 3 .895 3 2-1.343 2-3 2m0-8c1.11 0 2.08.402 2.599 1M12 8V7m0 1v8m0 0v1m0-1c-1.11 0-2.08-.402-2.599-1M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
+              </svg>
+            </div>
+            <h3 className="font-bold text-sm text-slate-900 dark:text-slate-50 group-hover:text-green-600 dark:group-hover:text-green-400">Right Amount</h3>
+            <p className="text-xs text-slate-600 dark:text-slate-400 mt-1">Investment Amount Calculator</p>
+          </a>
+
+          <a
+            href="http://82.25.105.18:9003"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="card-glass group flex flex-col items-center justify-center px-6 py-6 text-center shadow-md transition-all duration-300 hover:shadow-2xl hover:scale-110 hover:border-primary-400 hover:bg-gradient-to-br hover:from-purple-50 hover:to-purple-100/50 dark:hover:bg-slate-800 animate-scale-in"
+            style={{ animationDelay: '0.2s' }}
+          >
+            <div className="w-12 h-12 rounded-xl bg-gradient-to-br from-purple-500 to-purple-600 flex items-center justify-center mb-3 shadow-lg group-hover:shadow-xl group-hover:scale-110 transition-all">
+              <svg className="w-6 h-6 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M4 5a1 1 0 011-1h4a1 1 0 011 1v7a1 1 0 01-1 1H5a1 1 0 01-1-1V5zM14 5a1 1 0 011-1h4a1 1 0 011 1v7a1 1 0 01-1 1h-4a1 1 0 01-1-1V5zM4 16a1 1 0 011-1h4a1 1 0 011 1v3a1 1 0 01-1 1H5a1 1 0 01-1-1v-3zM14 16a1 1 0 011-1h4a1 1 0 011 1v3a1 1 0 01-1 1h-4a1 1 0 01-1-1v-3z" />
+              </svg>
+            </div>
+            <h3 className="font-bold text-sm text-slate-900 dark:text-slate-50 group-hover:text-purple-600 dark:group-hover:text-purple-400">Sector Heatmap</h3>
+            <p className="text-xs text-slate-600 dark:text-slate-400 mt-1">Visual Sector Performance</p>
+          </a>
+
+          <a
+            href="http://82.25.105.18:5000"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="card-glass group flex flex-col items-center justify-center px-6 py-6 text-center shadow-md transition-all duration-300 hover:shadow-2xl hover:scale-110 hover:border-primary-400 hover:bg-gradient-to-br hover:from-orange-50 hover:to-orange-100/50 dark:hover:bg-slate-800 animate-scale-in"
+            style={{ animationDelay: '0.3s' }}
+          >
+            <div className="w-12 h-12 rounded-xl bg-gradient-to-br from-orange-500 to-orange-600 flex items-center justify-center mb-3 shadow-lg group-hover:shadow-xl group-hover:scale-110 transition-all">
+              <svg className="w-6 h-6 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M13 7h8m0 0v8m0-8l-8 8-4-4-6 6" />
+              </svg>
+            </div>
+            <h3 className="font-bold text-sm text-slate-900 dark:text-slate-50 group-hover:text-orange-600 dark:group-hover:text-orange-400">Risk-Reward</h3>
+            <p className="text-xs text-slate-600 dark:text-slate-400 mt-1">Risk-Reward Analysis</p>
+          </a>
+
+          <a
+            href="http://82.25.105.18:9005"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="card-glass group flex flex-col items-center justify-center px-6 py-6 text-center shadow-md transition-all duration-300 hover:shadow-2xl hover:scale-110 hover:border-primary-400 hover:bg-gradient-to-br hover:from-indigo-50 hover:to-indigo-100/50 dark:hover:bg-slate-800 animate-scale-in"
+            style={{ animationDelay: '0.4s' }}
+          >
+            <div className="w-12 h-12 rounded-xl bg-gradient-to-br from-indigo-500 to-indigo-600 flex items-center justify-center mb-3 shadow-lg group-hover:shadow-xl group-hover:scale-110 transition-all">
+              <svg className="w-6 h-6 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M7 12l3-3 3 3 4-4M8 21l4-4 4 4M3 4h18M4 4h16v12a1 1 0 01-1 1H5a1 1 0 01-1-1V4z" />
+              </svg>
+            </div>
+            <h3 className="font-bold text-sm text-slate-900 dark:text-slate-50 group-hover:text-indigo-600 dark:group-hover:text-indigo-400">Risk-Return</h3>
+            <p className="text-xs text-slate-600 dark:text-slate-400 mt-1">Risk-Return Dashboard</p>
+          </a>
+
+          <a
+            href="http://82.25.105.18:5002"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="card-glass group flex flex-col items-center justify-center px-6 py-6 text-center shadow-md transition-all duration-300 hover:shadow-2xl hover:scale-110 hover:border-primary-400 hover:bg-gradient-to-br hover:from-red-50 hover:to-red-100/50 dark:hover:bg-slate-800 animate-scale-in"
+            style={{ animationDelay: '0.5s' }}
+          >
+            <div className="w-12 h-12 rounded-xl bg-gradient-to-br from-red-500 to-red-600 flex items-center justify-center mb-3 shadow-lg group-hover:shadow-xl group-hover:scale-110 transition-all">
+              <svg className="w-6 h-6 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M12 9v2m0 4h.01m-6.938 4h13.856c1.54 0 2.502-1.667 1.732-3L13.732 4c-.77-1.333-2.694-1.333-3.464 0L3.34 16c-.77 1.333.192 3 1.732 3z" />
+              </svg>
+            </div>
+            <h3 className="font-bold text-sm text-slate-900 dark:text-slate-50 group-hover:text-red-600 dark:group-hover:text-red-400">Riskometer</h3>
+            <p className="text-xs text-slate-600 dark:text-slate-400 mt-1">Risk Assessment Tool</p>
+          </a>
+
+          <a
+            href="http://82.25.105.18:9006"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="card-glass group flex flex-col items-center justify-center px-6 py-6 text-center shadow-md transition-all duration-300 hover:shadow-2xl hover:scale-110 hover:border-primary-400 hover:bg-gradient-to-br hover:from-teal-50 hover:to-teal-100/50 dark:hover:bg-slate-800 animate-scale-in"
+            style={{ animationDelay: '0.6s' }}
+          >
+            <div className="w-12 h-12 rounded-xl bg-gradient-to-br from-teal-500 to-teal-600 flex items-center justify-center mb-3 shadow-lg group-hover:shadow-xl group-hover:scale-110 transition-all">
+              <svg className="w-6 h-6 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 19v-6a2 2 0 00-2-2H5a2 2 0 00-2 2v6a2 2 0 002 2h2a2 2 0 002-2zm0 0V9a2 2 0 012-2h2a2 2 0 012 2v10m-6 0a2 2 0 002 2h2a2 2 0 002-2m0 0V5a2 2 0 012-2h2a2 2 0 012 2v14a2 2 0 01-2 2h-2a2 2 0 01-2-2z" />
+              </svg>
+            </div>
+            <h3 className="font-bold text-sm text-slate-900 dark:text-slate-50 group-hover:text-teal-600 dark:group-hover:text-teal-400">Multi Chart</h3>
+            <p className="text-xs text-slate-600 dark:text-slate-400 mt-1">Multi-Index Comparison</p>
+          </a>
+
+          <a
+            href="http://82.25.105.18:3003"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="card-glass group flex flex-col items-center justify-center px-6 py-6 text-center shadow-md transition-all duration-300 hover:shadow-2xl hover:scale-110 hover:border-primary-400 hover:bg-gradient-to-br hover:from-cyan-50 hover:to-cyan-100/50 dark:hover:bg-slate-800 animate-scale-in"
+            style={{ animationDelay: '0.7s' }}
+          >
+            <div className="w-12 h-12 rounded-xl bg-gradient-to-br from-cyan-500 to-cyan-600 flex items-center justify-center mb-3 shadow-lg group-hover:shadow-xl group-hover:scale-110 transition-all">
+              <svg className="w-6 h-6 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z" />
+              </svg>
+            </div>
+            <h3 className="font-bold text-sm text-slate-900 dark:text-slate-50 group-hover:text-cyan-600 dark:group-hover:text-cyan-400">PMS Screener</h3>
+            <p className="text-xs text-slate-600 dark:text-slate-400 mt-1">Fund Screening Tool</p>
+          </a>
+        </div>
+      </section>
+
       {/* What we cover */}
       <section className="space-y-6 animate-fade-in-up">
         <div className="flex flex-col gap-2 sm:flex-row sm:items-end sm:justify-between">
