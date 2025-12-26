@@ -17,7 +17,7 @@
       "name": "bar-line-backend",
       "cwd": "/var/www/vsfintech/Bar-Line/backend",
       "script": "venv/bin/gunicorn",
-      "args": "-w 2 -b 0.0.0.0:8001 app:app",
+      "args": "-w 2 -b 0.0.0.0:8001 server:app",
       "interpreter": "none",
       "autorestart": true,
       "watch": false

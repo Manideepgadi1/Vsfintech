@@ -1,6 +1,6 @@
 from sqlalchemy import Column, Integer, String, Text
 
-from backend.database.session import Base
+from database.session import Base
 
 
 class Basket(Base):
