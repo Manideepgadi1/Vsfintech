@@ -14,18 +14,34 @@ export const Fundscreener2Page: FC = () => {
         </p>
       </section>
 
-      <div className="card-glass p-8 text-center">
-        <div className="mx-auto mb-4 h-16 w-16 rounded-full bg-primary-500/10 flex items-center justify-center">
-          <svg className="h-8 w-8 text-primary-600" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-            <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M12 6V4m0 2a2 2 0 100 4m0-4a2 2 0 110 4m-6 8a2 2 0 100-4m0 4a2 2 0 110-4m0 4v2m0-6V4m6 6v10m6-2a2 2 0 100-4m0 4a2 2 0 110-4m0 4v2m0-6V4" />
-          </svg>
+      {/* PMS Screener Tool Card */}
+      <div className="card-glass p-6 space-y-4">
+        <div className="flex items-center justify-between">
+          <h2 className="text-lg font-semibold text-slate-900 dark:text-slate-50">
+            Our PMS Screener
+          </h2>
+          <a
+            href="http://82.25.105.18/pms-screener"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="button-primary px-4 py-2 text-xs"
+          >
+            Open in New Tab
+          </a>
         </div>
-        <h2 className="text-lg font-semibold text-slate-900 dark:text-slate-50">
-          Coming Soon
-        </h2>
-        <p className="mt-2 text-sm text-slate-600 dark:text-slate-300">
-          Advanced screening interface in development
+        <p className="text-sm text-slate-600 dark:text-slate-300">
+          Use our advanced PMS screening tool to filter and analyze Portfolio Management Services.
         </p>
+        
+        {/* Embedded iframe */}
+        <div className="relative w-full" style={{ height: '800px' }}>
+          <iframe
+            src="http://82.25.105.18/pms-screener"
+            className="w-full h-full rounded-lg border-2 border-slate-200 dark:border-slate-700"
+            title="PMS Screener"
+            sandbox="allow-same-origin allow-scripts allow-forms"
+          />
+        </div>
       </div>
     </div>
   );

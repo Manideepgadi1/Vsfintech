@@ -132,7 +132,9 @@ export function HomePage() {
                 </span>
               </a>
               <a
-                href="#alphanifty"
+                href="http://82.25.105.18/alphanifty"
+                target="_blank"
+                rel="noopener noreferrer"
                 className="group relative inline-flex items-center justify-center overflow-hidden rounded-xl border-2 border-primary-500 bg-white px-8 py-3.5 text-sm font-semibold text-primary-600 shadow-md transition-all duration-300 hover:bg-primary-50 hover:shadow-lg hover:scale-105 active:scale-95 dark:bg-slate-900 dark:text-primary-400 dark:hover:bg-slate-800"
               >
                 <span className="relative flex items-center gap-2">
