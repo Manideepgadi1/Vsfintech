@@ -36,7 +36,7 @@ export function Navbar() {
           <div className="flex flex-col leading-tight">
             <span className="text-sm font-bold tracking-wide text-slate-900 dark:text-slate-50">VS Fintech</span>
             <span className="text-[10px] font-semibold uppercase tracking-[0.2em] text-primary-600 dark:text-primary-400">
-              Quant · Research · Baskets
+              Quant · Research · Analytics
             </span>
           </div>
         </div>
@@ -53,18 +53,6 @@ export function Navbar() {
             }
           >
             Home
-          </NavLink>
-          <NavLink
-            to="/baskets"
-            className={({ isActive }) =>
-              `${navLinkBase} ${
-                isActive
-                  ? 'bg-gradient-to-r from-primary-500 to-primary-600 text-white shadow-md shadow-primary-500/30'
-                  : 'text-slate-700 hover:bg-white hover:text-primary-600 hover:shadow-sm dark:text-slate-300 dark:hover:bg-slate-800 dark:hover:text-white'
-              }`
-            }
-          >
-            Baskets
           </NavLink>
             <NavLink
               to="/about"

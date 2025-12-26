@@ -1,8 +1,6 @@
 import { Route, Routes } from 'react-router-dom';
 import { Layout } from './components/Layout';
 import { HomePage } from './pages/HomePage';
-import { BasketsPage } from './pages/BasketsPage';
-import { BasketDetailPage } from './pages/BasketDetailPage';
 import { AboutPage } from './pages/AboutPage';
 import { ProfilePage } from './pages/ProfilePage';
 import { ServicesPage } from './pages/ServicesPage';
@@ -29,8 +27,6 @@ export default function App() {
     <Layout>
       <Routes>
         <Route path="/" element={<HomePage />} />
-        <Route path="/baskets" element={<BasketsPage />} />
-        <Route path="/baskets/:basketId" element={<BasketDetailPage />} />
         <Route path="/about" element={<AboutPage />} />
         <Route path="/profile" element={<ProfilePage />} />
         <Route path="/services" element={<ServicesPage />} />

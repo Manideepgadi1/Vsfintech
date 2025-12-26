@@ -73,15 +73,9 @@ export const ServicesPage: FC = () => {
           </p>
         </div>
         <div className="flex gap-3">
-          <Link
-            to="/baskets"
-            className="button-primary inline-flex items-center justify-center px-4 py-2 text-xs font-semibold uppercase tracking-[0.16em]"
-          >
-            View baskets
-          </Link>
           <a
             href="tel:+917207123400"
-            className="button-ghost inline-flex items-center justify-center px-4 py-2 text-xs font-semibold uppercase tracking-[0.16em]"
+            className="button-primary inline-flex items-center justify-center px-4 py-2 text-xs font-semibold uppercase tracking-[0.16em]"
           >
             Call VS Fintech
           </a>

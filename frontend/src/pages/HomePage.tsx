@@ -20,7 +20,6 @@ const instruments = [
   'Stocks',
   'Mutual Funds',
   'Bonds',
-  'Stock Baskets',
   'PMS / Unlisted Shares',
   'HNI Services',
   'Insurance',
@@ -54,7 +53,7 @@ const testimonials = [
     name: 'Varma K.',
     role: 'Senior Analyst',
     quote:
-      '"The basket strategies gave us focused exposure without the day‑to‑day noise. Research notes made it easy to stay invested."',
+      '"The investment strategies gave us focused exposure without the day‑to‑day noise. Research notes made it easy to stay invested."',
   },
 ];
 
@@ -100,11 +99,11 @@ export function HomePage() {
   return (
     <div className="space-y-16 bg-white">
       {/* Hero – AlphaNifty + VS Fintech positioning */}
-      <section className="gradient-hero rounded-3xl border border-slate-200/80 px-6 py-10 shadow-elevated sm:px-8 lg:px-10 dark:border-slate-800/80 animate-fade-in">
+      <section className="gradient-hero rounded-3xl border border-slate-200/80 px-6 py-10 shadow-2xl shadow-primary-500/10 transition-all duration-500 hover:shadow-3xl hover:shadow-primary-500/20 sm:px-8 lg:px-10 dark:border-slate-800/80 animate-fade-in">
         <div className="grid gap-10 lg:grid-cols-[minmax(0,1.4fr)_minmax(0,1fr)] lg:items-center">
           <div className="space-y-6">
-            <p className="mb-3 inline-flex items-center gap-2 rounded-full border border-primary-400/40 bg-primary-50 px-3 py-1 text-[11px] font-semibold uppercase tracking-[0.18em] text-primary-700 dark:border-primary-500/40 dark:bg-primary-500/10 dark:text-primary-100 animate-fade-in-up">
-              <span className="h-1.5 w-1.5 rounded-full bg-primary-500 animate-pulse" />
+            <p className="mb-3 inline-flex items-center gap-2 rounded-full border border-primary-400/40 bg-primary-50 px-3 py-1 text-[11px] font-semibold uppercase tracking-[0.18em] text-primary-700 shadow-sm transition-all duration-300 hover:shadow-md hover:scale-105 dark:border-primary-500/40 dark:bg-primary-500/10 dark:text-primary-100 animate-fade-in-up">
+              <span className="h-1.5 w-1.5 rounded-full bg-primary-500 animate-pulse shadow-sm shadow-primary-500" />
               AlphaNifty – India&apos;s intelligent investment engine
             </p>
             <h1 className="text-3xl font-bold tracking-tight text-slate-900 sm:text-4xl lg:text-5xl dark:text-slate-50 animate-fade-in-up stagger-1">
@@ -115,36 +114,51 @@ export function HomePage() {
             <p className="mt-4 max-w-xl text-sm leading-relaxed text-slate-700 dark:text-slate-300">
               VS Fintech combines data analytics, capital‑markets experience, and ML‑driven
               models to build transparent strategies for Indian investors. From mutual funds to
-              index baskets, everything starts with research.
+              equity research, everything starts with data.
             </p>
-            <div className="mt-6 flex flex-wrap gap-3">
+            <div className="mt-6 flex flex-wrap gap-4">
               <a
                 href="https://play.google.com/store/apps/details?id=com.alphanifty.alphanifty&pcampaignid=web_share"
                 target="_blank"
                 rel="noreferrer"
-                className="button-primary h-10 px-6 text-sm"
+                className="group relative inline-flex items-center justify-center overflow-hidden rounded-xl bg-gradient-to-br from-primary-500 to-primary-600 px-8 py-3.5 text-sm font-semibold text-white shadow-lg shadow-primary-500/30 transition-all duration-300 hover:shadow-xl hover:shadow-primary-500/40 hover:scale-105 active:scale-95"
               >
-                Start with AlphaNifty app
+                <span className="absolute inset-0 w-full h-full bg-gradient-to-br from-primary-400 to-primary-500 opacity-0 transition-opacity duration-300 group-hover:opacity-100"></span>
+                <span className="relative flex items-center gap-2">
+                  <svg className="w-5 h-5" fill="currentColor" viewBox="0 0 24 24">
+                    <path d="M17.9 10.9C17.6 10.6 17.2 10.4 16.7 10.4H14.8V6.1C14.8 5.3 14.1 4.6 13.3 4.6H10.7C9.9 4.6 9.2 5.3 9.2 6.1V10.4H7.3C6.4 10.4 5.9 11.5 6.5 12.1L11.1 16.7C11.6 17.2 12.4 17.2 12.9 16.7L17.5 12.1C17.8 11.8 18 11.4 18 11C18 10.9 17.9 10.9 17.9 10.9M4 19.2H20V21.2H4V19.2Z"/>
+                  </svg>
+                  Start with AlphaNifty App
+                </span>
               </a>
-              <Link
-                to="/baskets"
-                className="button-ghost h-10 px-5 text-[11px] uppercase tracking-[0.18em]"
+              <a
+                href="#alphanifty"
+                className="group relative inline-flex items-center justify-center overflow-hidden rounded-xl border-2 border-primary-500 bg-white px-8 py-3.5 text-sm font-semibold text-primary-600 shadow-md transition-all duration-300 hover:bg-primary-50 hover:shadow-lg hover:scale-105 active:scale-95 dark:bg-slate-900 dark:text-primary-400 dark:hover:bg-slate-800"
               >
-                Explore baskets
-              </Link>
+                <span className="relative flex items-center gap-2">
+                  <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M13 10V3L4 14h7v7l9-11h-7z" />
+                  </svg>
+                  Launch AlphaNifty Platform
+                  <svg className="w-4 h-4 transition-transform duration-300 group-hover:translate-x-1" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5l7 7-7 7" />
+                  </svg>
+                </span>
+              </a>
             </div>
           </div>
 
-          <div className="card-glass relative overflow-hidden p-5 text-xs text-slate-700 dark:text-slate-300">
-            <div className="absolute -right-10 -top-10 h-40 w-40 rounded-full bg-primary-500/20 blur-3xl" />
+          <div className="card-glass relative overflow-hidden p-5 text-xs text-slate-700 shadow-lg transition-all duration-500 hover:shadow-2xl hover:scale-[1.02] dark:text-slate-300">
+            <div className="absolute -right-10 -top-10 h-40 w-40 rounded-full bg-primary-500/20 blur-3xl animate-pulse" />
             <p className="text-[11px] font-bold uppercase tracking-[0.2em] text-primary-700 dark:text-slate-400">
               HOW WE INVEST
             </p>
             <div className="mt-3 space-y-3">
-              {approachItems.map((item) => (
+              {approachItems.map((item, idx) => (
                 <div
                   key={item.title}
-                  className="flex items-start justify-between gap-3 rounded-2xl bg-gradient-to-br from-slate-50 to-slate-100/50 px-3 py-2.5 dark:bg-slate-900/80"
+                  className="group flex items-start justify-between gap-3 rounded-2xl bg-gradient-to-br from-slate-50 to-slate-100/50 px-3 py-2.5 shadow-md transition-all duration-300 hover:shadow-lg hover:scale-105 hover:from-primary-50 hover:to-primary-100/50 dark:bg-slate-900/80 dark:hover:bg-slate-800/90 animate-fade-in-up"
+                  style={{ animationDelay: `${idx * 0.1}s` }}
                 >
                   <div>
                     <p className="text-[11px] font-bold uppercase tracking-[0.18em] text-slate-800 dark:text-slate-300">
@@ -173,10 +187,11 @@ export function HomePage() {
           </p>
         </div>
         <div className="grid gap-4 md:grid-cols-3">
-          {approachItems.map((item) => (
+          {approachItems.map((item, idx) => (
             <article
               key={item.title}
-              className="card-glass flex flex-col justify-between px-5 py-4 text-xs text-slate-700 dark:text-slate-200"
+              className="card-glass group flex flex-col justify-between px-5 py-4 text-xs text-slate-700 shadow-md transition-all duration-500 hover:shadow-2xl hover:scale-105 hover:border-primary-300 dark:text-slate-200 animate-fade-in-up"
+              style={{ animationDelay: `${idx * 0.15}s` }}
             >
               <p className="text-[11px] font-semibold uppercase tracking-[0.18em] text-slate-500 dark:text-slate-400">
                 {item.title}
@@ -195,7 +210,7 @@ export function HomePage() {
               GUIDANCE PROVIDED FOR
             </h2>
             <p className="mt-1 text-sm text-slate-600 dark:text-slate-300">
-              One research layer across instruments – from mutual funds to stock baskets.
+              One research layer across instruments – from mutual funds to equity research.
             </p>
           </div>
         </div>
@@ -203,7 +218,7 @@ export function HomePage() {
           {instruments.map((label, idx) => (
             <article
               key={label}
-              className="card-glass group flex items-center justify-between px-4 py-3 text-xs text-slate-700 transition-all duration-300 dark:text-slate-200 animate-scale-in hover:border-primary-300"
+              className="card-glass group flex items-center justify-between px-4 py-3 text-xs text-slate-700 shadow-md transition-all duration-300 hover:shadow-xl hover:scale-105 dark:text-slate-200 animate-scale-in hover:border-primary-300 hover:bg-primary-50/50 dark:hover:bg-slate-800"
               style={{ animationDelay: `${idx * 0.05}s` }}
             >
               <span className="font-bold transition-colors group-hover:text-primary-600 dark:group-hover:text-primary-400">{label}</span>
@@ -230,12 +245,12 @@ export function HomePage() {
             experience and clear communication so investors know what they own and why.
           </p>
         </div>
-        <div className="card-glass p-5 text-sm text-slate-700 dark:text-slate-300 animate-scale-in stagger-1">
+        <div className="card-glass p-5 text-sm text-slate-700 shadow-lg transition-all duration-500 hover:shadow-2xl hover:scale-105 dark:text-slate-300 animate-scale-in stagger-1">
           <ul className="space-y-2">
-            <li className="flex items-start gap-2"><span className="text-primary-600 font-bold">•</span> Research‑backed mutual‑fund journeys through the AlphaNifty app.</li>
-            <li className="flex items-start gap-2"><span className="text-primary-600 font-bold">•</span> Stock baskets that package themes and factors into explainable portfolios.</li>
-            <li className="flex items-start gap-2"><span className="text-primary-600 font-bold">•</span> Support for HNI and advisor workflows, not just DIY investors.</li>
-            <li className="flex items-start gap-2"><span className="text-primary-600 font-bold">•</span> Transparent narratives and regular communication instead of jargon.</li>
+            <li className="flex items-start gap-2 transition-all duration-300 hover:translate-x-2"><span className="text-primary-600 font-bold">•</span> Research‑backed mutual‑fund journeys through the AlphaNifty app.</li>
+            <li className="flex items-start gap-2 transition-all duration-300 hover:translate-x-2"><span className="text-primary-600 font-bold">•</span> Thematic investment strategies that package themes and factors into explainable portfolios.</li>
+            <li className="flex items-start gap-2 transition-all duration-300 hover:translate-x-2"><span className="text-primary-600 font-bold">•</span> Support for HNI and advisor workflows, not just DIY investors.</li>
+            <li className="flex items-start gap-2 transition-all duration-300 hover:translate-x-2"><span className="text-primary-600 font-bold">•</span> Transparent narratives and regular communication instead of jargon.</li>
           </ul>
         </div>
       </section>
