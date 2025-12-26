@@ -180,12 +180,8 @@ export const FundoscopePage: FC = () => {
       {fundoscopeData.length === 0 ? (
         <div className="card-glass p-8 text-center mt-8">
           <p className="text-sm text-slate-600 dark:text-slate-300">
-              Import Data
-            </button>
-            <button className="button-ghost px-5 py-2.5 text-xs">
-              View Documentation
-            </button>
-          </div>
+            Click on any tool above to access analysis features
+          </p>
         </div>
       ) : (
         <div className="grid gap-6 md:grid-cols-2 lg:grid-cols-3">
