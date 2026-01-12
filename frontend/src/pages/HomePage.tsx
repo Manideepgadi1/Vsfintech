@@ -216,7 +216,7 @@ export function HomePage() {
         </div>
         <div className="grid gap-4 sm:grid-cols-2 lg:grid-cols-4">
           <a
-            href="http://82.25.105.18:9004"
+            href="/right-sector/"
             target="_blank"
             rel="noopener noreferrer"
             className="card-glass group flex flex-col items-center justify-center px-6 py-6 text-center shadow-md transition-all duration-300 hover:shadow-2xl hover:scale-110 hover:border-primary-400 hover:bg-gradient-to-br hover:from-primary-50 hover:to-primary-100/50 dark:hover:bg-slate-800 animate-scale-in"
@@ -231,7 +231,7 @@ export function HomePage() {
           </a>
 
           <a
-            href="http://82.25.105.18:9002"
+            href="/right-amount/"
             target="_blank"
             rel="noopener noreferrer"
             className="card-glass group flex flex-col items-center justify-center px-6 py-6 text-center shadow-md transition-all duration-300 hover:shadow-2xl hover:scale-110 hover:border-primary-400 hover:bg-gradient-to-br hover:from-green-50 hover:to-green-100/50 dark:hover:bg-slate-800 animate-scale-in"
@@ -247,7 +247,7 @@ export function HomePage() {
           </a>
 
           <a
-            href="http://82.25.105.18:9003"
+            href="/sector-heatmap/"
             target="_blank"
             rel="noopener noreferrer"
             className="card-glass group flex flex-col items-center justify-center px-6 py-6 text-center shadow-md transition-all duration-300 hover:shadow-2xl hover:scale-110 hover:border-primary-400 hover:bg-gradient-to-br hover:from-purple-50 hover:to-purple-100/50 dark:hover:bg-slate-800 animate-scale-in"
@@ -263,7 +263,7 @@ export function HomePage() {
           </a>
 
           <a
-            href="http://82.25.105.18:5000"
+            href="/risk-reward/"
             target="_blank"
             rel="noopener noreferrer"
             className="card-glass group flex flex-col items-center justify-center px-6 py-6 text-center shadow-md transition-all duration-300 hover:shadow-2xl hover:scale-110 hover:border-primary-400 hover:bg-gradient-to-br hover:from-orange-50 hover:to-orange-100/50 dark:hover:bg-slate-800 animate-scale-in"
@@ -279,55 +279,55 @@ export function HomePage() {
           </a>
 
           <a
-            href="http://82.25.105.18:9005"
+            href="/riskometer/"
             target="_blank"
             rel="noopener noreferrer"
-            className="card-glass group flex flex-col items-center justify-center px-6 py-6 text-center shadow-md transition-all duration-300 hover:shadow-2xl hover:scale-110 hover:border-primary-400 hover:bg-gradient-to-br hover:from-indigo-50 hover:to-indigo-100/50 dark:hover:bg-slate-800 animate-scale-in"
+            className="card-glass group flex flex-col items-center justify-center px-6 py-6 text-center shadow-md transition-all duration-300 hover:shadow-2xl hover:scale-110 hover:border-primary-400 hover:bg-gradient-to-br hover:from-rose-50 hover:to-rose-100/50 dark:hover:bg-slate-800 animate-scale-in"
             style={{ animationDelay: '0.4s' }}
           >
-            <div className="w-12 h-12 rounded-xl bg-gradient-to-br from-indigo-500 to-indigo-600 flex items-center justify-center mb-3 shadow-lg group-hover:shadow-xl group-hover:scale-110 transition-all">
-              <svg className="w-6 h-6 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M7 12l3-3 3 3 4-4M8 21l4-4 4 4M3 4h18M4 4h16v12a1 1 0 01-1 1H5a1 1 0 01-1-1V4z" />
-              </svg>
-            </div>
-            <h3 className="font-bold text-sm text-slate-900 dark:text-slate-50 group-hover:text-indigo-600 dark:group-hover:text-indigo-400">Risk-Return</h3>
-            <p className="text-xs text-slate-600 dark:text-slate-400 mt-1">Risk-Return Dashboard</p>
-          </a>
-
-          <a
-            href="http://82.25.105.18:5002"
-            target="_blank"
-            rel="noopener noreferrer"
-            className="card-glass group flex flex-col items-center justify-center px-6 py-6 text-center shadow-md transition-all duration-300 hover:shadow-2xl hover:scale-110 hover:border-primary-400 hover:bg-gradient-to-br hover:from-red-50 hover:to-red-100/50 dark:hover:bg-slate-800 animate-scale-in"
-            style={{ animationDelay: '0.5s' }}
-          >
-            <div className="w-12 h-12 rounded-xl bg-gradient-to-br from-red-500 to-red-600 flex items-center justify-center mb-3 shadow-lg group-hover:shadow-xl group-hover:scale-110 transition-all">
-              <svg className="w-6 h-6 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M12 9v2m0 4h.01m-6.938 4h13.856c1.54 0 2.502-1.667 1.732-3L13.732 4c-.77-1.333-2.694-1.333-3.464 0L3.34 16c-.77 1.333.192 3 1.732 3z" />
-              </svg>
-            </div>
-            <h3 className="font-bold text-sm text-slate-900 dark:text-slate-50 group-hover:text-red-600 dark:group-hover:text-red-400">Riskometer</h3>
-            <p className="text-xs text-slate-600 dark:text-slate-400 mt-1">Risk Assessment Tool</p>
-          </a>
-
-          <a
-            href="http://82.25.105.18:9006"
-            target="_blank"
-            rel="noopener noreferrer"
-            className="card-glass group flex flex-col items-center justify-center px-6 py-6 text-center shadow-md transition-all duration-300 hover:shadow-2xl hover:scale-110 hover:border-primary-400 hover:bg-gradient-to-br hover:from-teal-50 hover:to-teal-100/50 dark:hover:bg-slate-800 animate-scale-in"
-            style={{ animationDelay: '0.6s' }}
-          >
-            <div className="w-12 h-12 rounded-xl bg-gradient-to-br from-teal-500 to-teal-600 flex items-center justify-center mb-3 shadow-lg group-hover:shadow-xl group-hover:scale-110 transition-all">
+            <div className="w-12 h-12 rounded-xl bg-gradient-to-br from-rose-500 to-rose-600 flex items-center justify-center mb-3 shadow-lg group-hover:shadow-xl group-hover:scale-110 transition-all">
               <svg className="w-6 h-6 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                 <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 19v-6a2 2 0 00-2-2H5a2 2 0 00-2 2v6a2 2 0 002 2h2a2 2 0 002-2zm0 0V9a2 2 0 012-2h2a2 2 0 012 2v10m-6 0a2 2 0 002 2h2a2 2 0 002-2m0 0V5a2 2 0 012-2h2a2 2 0 012 2v14a2 2 0 01-2 2h-2a2 2 0 01-2-2z" />
               </svg>
             </div>
-            <h3 className="font-bold text-sm text-slate-900 dark:text-slate-50 group-hover:text-teal-600 dark:group-hover:text-teal-400">Multi Chart</h3>
-            <p className="text-xs text-slate-600 dark:text-slate-400 mt-1">Multi-Index Comparison</p>
+            <h3 className="font-bold text-sm text-slate-900 dark:text-slate-50 group-hover:text-rose-600 dark:group-hover:text-rose-400">Riskometer</h3>
+            <p className="text-xs text-slate-600 dark:text-slate-400 mt-1">Risk Assessment Tool</p>
           </a>
 
           <a
-            href="http://82.25.105.18:3003"
+            href="/multi-chart/"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="card-glass group flex flex-col items-center justify-center px-6 py-6 text-center shadow-md transition-all duration-300 hover:shadow-2xl hover:scale-110 hover:border-primary-400 hover:bg-gradient-to-br hover:from-teal-50 hover:to-teal-100/50 dark:hover:bg-slate-800 animate-scale-in"
+            style={{ animationDelay: '0.5s' }}
+          >
+            <div className="w-12 h-12 rounded-xl bg-gradient-to-br from-teal-500 to-teal-600 flex items-center justify-center mb-3 shadow-lg group-hover:shadow-xl group-hover:scale-110 transition-all">
+              <svg className="w-6 h-6 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M7 12l3-3 3 3 4-4M8 21l4-4 4 4M3 4h18M4 4h16v12a1 1 0 01-1 1H5a1 1 0 01-1-1V4z" />
+              </svg>
+            </div>
+            <h3 className="font-bold text-sm text-slate-900 dark:text-slate-50 group-hover:text-teal-600 dark:group-hover:text-teal-400">Multi Chart</h3>
+            <p className="text-xs text-slate-600 dark:text-slate-400 mt-1">Advanced Charting Tool</p>
+          </a>
+
+          <a
+            href="http://82.25.105.18/investment-calculator/"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="card-glass group flex flex-col items-center justify-center px-6 py-6 text-center shadow-md transition-all duration-300 hover:shadow-2xl hover:scale-110 hover:border-primary-400 hover:bg-gradient-to-br hover:from-indigo-50 hover:to-indigo-100/50 dark:hover:bg-slate-800 animate-scale-in"
+            style={{ animationDelay: '0.6s' }}
+          >
+            <div className="w-12 h-12 rounded-xl bg-gradient-to-br from-indigo-500 to-indigo-600 flex items-center justify-center mb-3 shadow-lg group-hover:shadow-xl group-hover:scale-110 transition-all">
+              <svg className="w-6 h-6 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 7h6m0 10v-3m-3 3h.01M9 17h.01M9 14h.01M12 14h.01M15 11h.01M12 11h.01M9 11h.01M7 21h10a2 2 0 002-2V5a2 2 0 00-2-2H7a2 2 0 00-2 2v14a2 2 0 002 2z" />
+              </svg>
+            </div>
+            <h3 className="font-bold text-sm text-slate-900 dark:text-slate-50 group-hover:text-indigo-600 dark:group-hover:text-indigo-400">Investment Calculator</h3>
+            <p className="text-xs text-slate-600 dark:text-slate-400 mt-1">Financial Planning Tools</p>
+          </a>
+
+          <a
+            href="/pms-screener/"
             target="_blank"
             rel="noopener noreferrer"
             className="card-glass group flex flex-col items-center justify-center px-6 py-6 text-center shadow-md transition-all duration-300 hover:shadow-2xl hover:scale-110 hover:border-primary-400 hover:bg-gradient-to-br hover:from-cyan-50 hover:to-cyan-100/50 dark:hover:bg-slate-800 animate-scale-in"

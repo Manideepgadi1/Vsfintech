@@ -1,0 +1,806 @@
+[
+  {
+    "fullName": "Nifty India Corporate Group Index - Tata Group",
+    "displayName": "NTATA",
+    "percentile": 0.002202,
+    "category": "THEMATIC"
+  },
+  {
+    "fullName": "Nifty50 Shariah",
+    "displayName": "N50SH",
+    "percentile": 0.00345,
+    "category": "THEMATIC"
+  },
+  {
+    "fullName": "Nifty Chemicals",
+    "displayName": "NCHEM",
+    "percentile": 0.003468,
+    "category": "SECTOR"
+  },
+  {
+    "fullName": "DSP QUANT",
+    "displayName": "NQUANT",
+    "percentile": 0.005375,
+    "category": "BROAD"
+  },
+  {
+    "fullName": "Nifty IT",
+    "displayName": "NTECH",
+    "percentile": 0.016967,
+    "category": "SECTOR"
+  },
+  {
+    "fullName": "Nifty Top 10 EW",
+    "displayName": "NT10EQWT",
+    "percentile": 0.03931,
+    "category": "STRATEGY"
+  },
+  {
+    "fullName": "UTI FLEX",
+    "displayName": "NFLEXI",
+    "percentile": 0.044817,
+    "category": "BROAD"
+  },
+  {
+    "fullName": "NIFTY CONSR DURBL",
+    "displayName": "NCONDUR",
+    "percentile": 0.105404,
+    "category": "SECTOR"
+  },
+  {
+    "fullName": "NIFTY INDIA RAILWAYS PSU",
+    "displayName": "NRPSU",
+    "percentile": 0.10894,
+    "category": "THEMATIC"
+  },
+  {
+    "fullName": "NIFTY500 FLEXICAP",
+    "displayName": "N5FCQ3",
+    "percentile": 0.117099,
+    "category": "STRATEGY"
+  },
+  {
+    "fullName": "Nifty50 Value 20",
+    "displayName": "N50V20",
+    "percentile": 0.13196,
+    "category": "STRATEGY"
+  },
+  {
+    "fullName": "Nifty FMCG",
+    "displayName": "NFMCG",
+    "percentile": 0.174804,
+    "category": "SECTOR"
+  },
+  {
+    "fullName": "Nifty Corp MAATR",
+    "displayName": "NMAATR",
+    "percentile": 0.192291,
+    "category": "THEMATIC"
+  },
+  {
+    "fullName": "Nifty500 Shariah",
+    "displayName": "N500SH",
+    "percentile": 0.242438,
+    "category": "THEMATIC"
+  },
+  {
+    "fullName": "Nifty Energy",
+    "displayName": "NENERGY",
+    "percentile": 0.253509,
+    "category": "THEMATIC"
+  },
+  {
+    "fullName": "NIFTY 50 FUTURES TR INDEX",
+    "displayName": "N50FTR",
+    "percentile": 0.253671,
+    "category": "STRATEGY"
+  },
+  {
+    "fullName": "NIFTY MIDSML HLTH",
+    "displayName": "NMSHC",
+    "percentile": 0.262286,
+    "category": "SECTOR"
+  },
+  {
+    "fullName": "NIFTY M150 QLTY50",
+    "displayName": "NMC150Q",
+    "percentile": 0.267567,
+    "category": "STRATEGY"
+  },
+  {
+    "fullName": "Nifty Shariah 25",
+    "displayName": "NSH25",
+    "percentile": 0.279112,
+    "category": "THEMATIC"
+  },
+  {
+    "fullName": "NIFTY200 QUALITY 30",
+    "displayName": "N200Q30",
+    "percentile": 0.288607,
+    "category": "STRATEGY"
+  },
+  {
+    "fullName": "NIFTY ALPHA 50",
+    "displayName": "NAL50",
+    "percentile": 0.300453,
+    "category": "STRATEGY"
+  },
+  {
+    "fullName": "Nifty100ESGSecLdr",
+    "displayName": "N100ESGSL",
+    "percentile": 0.306944,
+    "category": "THEMATIC"
+  },
+  {
+    "fullName": "Nifty Serv Sector",
+    "displayName": "NSERVSEC",
+    "percentile": 0.308163,
+    "category": "THEMATIC"
+  },
+  {
+    "fullName": "Nifty100 Alpha 30",
+    "displayName": "N100AL30",
+    "percentile": 0.308947,
+    "category": "STRATEGY"
+  },
+  {
+    "fullName": "NIFTY100 ESG",
+    "displayName": "N100ESG",
+    "percentile": 0.311394,
+    "category": "THEMATIC"
+  },
+  {
+    "fullName": "Nifty MS IT Telcm",
+    "displayName": "NMSITT",
+    "percentile": 0.319404,
+    "category": "SECTOR"
+  },
+  {
+    "fullName": "Nifty100 Enh ESG",
+    "displayName": "N100ESGE",
+    "percentile": 0.322655,
+    "category": "THEMATIC"
+  },
+  {
+    "fullName": "Nifty CoreHousing",
+    "displayName": "NCHOUS",
+    "percentile": 0.340917,
+    "category": "THEMATIC"
+  },
+  {
+    "fullName": "NIFTY TMMQ 50",
+    "displayName": "NTMF50",
+    "percentile": 0.349022,
+    "category": "STRATEGY"
+  },
+  {
+    "fullName": "Nifty200Momentm30",
+    "displayName": "N200M30",
+    "percentile": 0.350808,
+    "category": "STRATEGY"
+  },
+  {
+    "fullName": "Nifty NonCyc Cons",
+    "displayName": "NNCCON",
+    "percentile": 0.352442,
+    "category": "THEMATIC"
+  },
+  {
+    "fullName": "Nifty Conglomerate 50",
+    "displayName": "NCONG50",
+    "percentile": 0.357364,
+    "category": "THEMATIC"
+  },
+  {
+    "fullName": "NIFTY TATA 25 CAP",
+    "displayName": "NTATA25C",
+    "percentile": 0.373405,
+    "category": "THEMATIC"
+  },
+  {
+    "fullName": "Nifty Multi MQ 50",
+    "displayName": "NMQLV",
+    "percentile": 0.386783,
+    "category": "STRATEGY"
+  },
+  {
+    "fullName": "AXIS INNOVATION",
+    "displayName": "NINNOV",
+    "percentile": 0.38802,
+    "category": "BROAD"
+  },
+  {
+    "fullName": "NIFTY 500 MULTICAP MOMENTUM QUALITY 50",
+    "displayName": "N5MCMQ5",
+    "percentile": 0.390641,
+    "category": "STRATEGY"
+  },
+  {
+    "fullName": "NIFTY EV & NEW AGE AUTOMOTIVE",
+    "displayName": "NEVNAA",
+    "percentile": 0.401122,
+    "category": "THEMATIC"
+  },
+  {
+    "fullName": "NIFTY IPO",
+    "displayName": "NIPO",
+    "percentile": 0.435269,
+    "category": "THEMATIC"
+  },
+  {
+    "fullName": "Nifty Qlty LV 30",
+    "displayName": "NQLV30",
+    "percentile": 0.43744,
+    "category": "STRATEGY"
+  },
+  {
+    "fullName": "Nifty 50",
+    "displayName": "N50",
+    "percentile": 0.455021,
+    "category": "BROAD"
+  },
+  {
+    "fullName": "NIFTY ALPHALOWVOL",
+    "displayName": "NALV30",
+    "percentile": 0.460718,
+    "category": "STRATEGY"
+  },
+  {
+    "fullName": "NiftySml250MQ 100",
+    "displayName": "NSC250MQ",
+    "percentile": 0.464629,
+    "category": "STRATEGY"
+  },
+  {
+    "fullName": "Nifty 100",
+    "displayName": "N100",
+    "percentile": 0.485876,
+    "category": "BROAD"
+  },
+  {
+    "fullName": "NIFTY CAPITAL MARKETS",
+    "displayName": "NCM",
+    "percentile": 0.487774,
+    "category": "THEMATIC"
+  },
+  {
+    "fullName": "Nifty AQL 30",
+    "displayName": "NAQLV30",
+    "percentile": 0.493917,
+    "category": "STRATEGY"
+  },
+  {
+    "fullName": "Nifty Housing",
+    "displayName": "NHOUSING",
+    "percentile": 0.496949,
+    "category": "THEMATIC"
+  },
+  {
+    "fullName": "NIFTY 500 EQUAL WEIGHT",
+    "displayName": "N500EQ",
+    "percentile": 0.5,
+    "category": "BROAD"
+  },
+  {
+    "fullName": "NIFTY IND DIGITAL",
+    "displayName": "NIDIGI",
+    "percentile": 0.518177,
+    "category": "THEMATIC"
+  },
+  {
+    "fullName": "Nifty200 Alpha 30",
+    "displayName": "N200AL30",
+    "percentile": 0.520397,
+    "category": "STRATEGY"
+  },
+  {
+    "fullName": "Nifty Top 20 EW",
+    "displayName": "NT20EW",
+    "percentile": 0.521209,
+    "category": "STRATEGY"
+  },
+  {
+    "fullName": "NIFTY OIL AND GAS",
+    "displayName": "NOILGAS",
+    "percentile": 0.521521,
+    "category": "SECTOR"
+  },
+  {
+    "fullName": "Nifty Low Vol 50",
+    "displayName": "NLV50",
+    "percentile": 0.5229,
+    "category": "STRATEGY"
+  },
+  {
+    "fullName": "NiftyMS400 MQ 100",
+    "displayName": "NMSCMQ",
+    "percentile": 0.524071,
+    "category": "STRATEGY"
+  },
+  {
+    "fullName": "NIFTY100 LOWVOL30",
+    "displayName": "N100LV30",
+    "percentile": 0.526651,
+    "category": "STRATEGY"
+  },
+  {
+    "fullName": "NIFTY100 QUALTY30",
+    "displayName": "N100QLT30",
+    "percentile": 0.528134,
+    "category": "STRATEGY"
+  },
+  {
+    "fullName": "Nifty500Momentm50",
+    "displayName": "N500M50",
+    "percentile": 0.530269,
+    "category": "STRATEGY"
+  },
+  {
+    "fullName": "Nifty Fin Service",
+    "displayName": "NFINSERV",
+    "percentile": 0.551762,
+    "category": "SECTOR"
+  },
+  {
+    "fullName": "Nifty MS Ind Cons",
+    "displayName": "NMSICON",
+    "percentile": 0.554511,
+    "category": "THEMATIC"
+  },
+  {
+    "fullName": "ICICI PRU SILVER",
+    "displayName": "NSILVER",
+    "percentile": 0.557922,
+    "category": "BROAD"
+  },
+  {
+    "fullName": "Nifty 200",
+    "displayName": "N200",
+    "percentile": 0.573264,
+    "category": "BROAD"
+  },
+  {
+    "fullName": "Nifty 500",
+    "displayName": "N500",
+    "percentile": 0.579112,
+    "category": "BROAD"
+  },
+  {
+    "fullName": "NIFTY500 HEALTH",
+    "displayName": "N500HLTH",
+    "percentile": 0.58222,
+    "category": "SECTOR"
+  },
+  {
+    "fullName": "NIFTY REITS & INVITS",
+    "displayName": "NREiT",
+    "percentile": 0.582969,
+    "category": "THEMATIC"
+  },
+  {
+    "fullName": "Nifty Media",
+    "displayName": "NMEDIA",
+    "percentile": 0.584214,
+    "category": "SECTOR"
+  },
+  {
+    "fullName": "Nifty Realty",
+    "displayName": "NREALTY",
+    "percentile": 0.586047,
+    "category": "SECTOR"
+  },
+  {
+    "fullName": "NIFTY TOTAL MKT",
+    "displayName": "NTOTLM",
+    "percentile": 0.59197,
+    "category": "BROAD"
+  },
+  {
+    "fullName": "Nifty500 Qlty50",
+    "displayName": "N500QLT50",
+    "percentile": 0.593141,
+    "category": "STRATEGY"
+  },
+  {
+    "fullName": "Nifty Sml250 Q50",
+    "displayName": "NSC250Q",
+    "percentile": 0.59657,
+    "category": "STRATEGY"
+  },
+  {
+    "fullName": "NIFTY HEALTHCARE",
+    "displayName": "NHEALTH",
+    "percentile": 0.597714,
+    "category": "SECTOR"
+  },
+  {
+    "fullName": "Nifty Pharma",
+    "displayName": "NPHARMA",
+    "percentile": 0.600349,
+    "category": "SECTOR"
+  },
+  {
+    "fullName": "NIFTYM150MOMNTM50",
+    "displayName": "NM150M50",
+    "percentile": 0.605412,
+    "category": "STRATEGY"
+  },
+  {
+    "fullName": "Nifty Waves",
+    "displayName": "NWVS",
+    "percentile": 0.614361,
+    "category": "THEMATIC"
+  },
+  {
+    "fullName": "NIFTY ALPHA QUALITY VALUE LOW VOLATILITY 30",
+    "displayName": "NAQVLV30",
+    "percentile": 0.615899,
+    "category": "STRATEGY"
+  },
+  {
+    "fullName": "Nifty AQLV 30",
+    "displayName": "NAQLV30",
+    "percentile": 0.616014,
+    "category": "STRATEGY"
+  },
+  {
+    "fullName": "NIFTY SME EMERGE",
+    "displayName": "NSMEE",
+    "percentile": 0.617146,
+    "category": "THEMATIC"
+  },
+  {
+    "fullName": "Nifty500 MQVLv50",
+    "displayName": "NMQLV",
+    "percentile": 0.618849,
+    "category": "STRATEGY"
+  },
+  {
+    "fullName": "NIFTY500 MULTICAP",
+    "displayName": "N500",
+    "percentile": 0.63282,
+    "category": "BROAD"
+  },
+  {
+    "fullName": "NIFTY 500 MULTICAP 50:25:25",
+    "displayName": "NMC5025",
+    "percentile": 0.633345,
+    "category": "BROAD"
+  },
+  {
+    "fullName": "Nifty500 LowVol50",
+    "displayName": "N5LV5",
+    "percentile": 0.634095,
+    "category": "STRATEGY"
+  },
+  {
+    "fullName": "NIFTY LARGEMID250",
+    "displayName": "NLMC250",
+    "percentile": 0.634947,
+    "category": "BROAD"
+  },
+  {
+    "fullName": "Nifty MNC",
+    "displayName": "NMNC",
+    "percentile": 0.635919,
+    "category": "THEMATIC"
+  },
+  {
+    "fullName": "Nifty Pvt Bank",
+    "displayName": "NPVTBANK",
+    "percentile": 0.636523,
+    "category": "SECTOR"
+  },
+  {
+    "fullName": "NIFTY SMLCAP 250",
+    "displayName": "NSC250",
+    "percentile": 0.636523,
+    "category": "BROAD"
+  },
+  {
+    "fullName": "Nifty500 EW",
+    "displayName": "N500EQWT",
+    "percentile": 0.638524,
+    "category": "STRATEGY"
+  },
+  {
+    "fullName": "Nifty500 LMS Eql",
+    "displayName": "N500LMS",
+    "percentile": 0.638923,
+    "category": "STRATEGY"
+  },
+  {
+    "fullName": "NIFTY MIDSML 400",
+    "displayName": "NMSC400",
+    "percentile": 0.6412,
+    "category": "BROAD"
+  },
+  {
+    "fullName": "Nifty Ind Tourism",
+    "displayName": "NTOUR",
+    "percentile": 0.642494,
+    "category": "THEMATIC"
+  },
+  {
+    "fullName": "NIFTY INDIA DEFENCE",
+    "displayName": "NIDEF",
+    "percentile": 0.644885,
+    "category": "THEMATIC"
+  },
+  {
+    "fullName": "NIFTY INFRALOG",
+    "displayName": "NIFSL",
+    "percentile": 0.646717,
+    "category": "THEMATIC"
+  },
+  {
+    "fullName": "Nifty Next 50",
+    "displayName": "NN50",
+    "percentile": 0.648313,
+    "category": "BROAD"
+  },
+  {
+    "fullName": "NIFTY MIDCAP 150",
+    "displayName": "NMC150",
+    "percentile": 0.648342,
+    "category": "BROAD"
+  },
+  {
+    "fullName": "NIFTY100 EQL WGT",
+    "displayName": "N100EQWT",
+    "percentile": 0.64957,
+    "category": "STRATEGY"
+  },
+  {
+    "fullName": "NIFTY FINSRV25 50",
+    "displayName": "NFINS25",
+    "percentile": 0.654663,
+    "category": "SECTOR"
+  },
+  {
+    "fullName": "NIFTY MULTI MFG",
+    "displayName": "NMFG532",
+    "percentile": 0.658045,
+    "category": "THEMATIC"
+  },
+  {
+    "fullName": "NIFTY SMLCAP 100",
+    "displayName": "NSC100",
+    "percentile": 0.65913,
+    "category": "BROAD"
+  },
+  {
+    "fullName": "Nifty Div Opps 50",
+    "displayName": "NDIVOP50",
+    "percentile": 0.660416,
+    "category": "STRATEGY"
+  },
+  {
+    "fullName": "NIFTY MULTI INFRA",
+    "displayName": "NINFRA532",
+    "percentile": 0.661446,
+    "category": "THEMATIC"
+  },
+  {
+    "fullName": "NIFTY SMLCAP 50",
+    "displayName": "NSC50",
+    "percentile": 0.668286,
+    "category": "BROAD"
+  },
+  {
+    "fullName": "Nifty Consumption",
+    "displayName": "NICON",
+    "percentile": 0.669155,
+    "category": "THEMATIC"
+  },
+  {
+    "fullName": "NIFTY MICROCAP250",
+    "displayName": "NMICRO",
+    "percentile": 0.670714,
+    "category": "BROAD"
+  },
+  {
+    "fullName": "NIFTY50 EQL WGT",
+    "displayName": "N50EQWGT",
+    "percentile": 0.674917,
+    "category": "STRATEGY"
+  },
+  {
+    "fullName": "NIFTY INDIA MFG",
+    "displayName": "NIMFG",
+    "percentile": 0.675484,
+    "category": "THEMATIC"
+  },
+  {
+    "fullName": "DSP ELSS",
+    "displayName": "NELSS",
+    "percentile": 0.678294,
+    "category": "BROAD"
+  },
+  {
+    "fullName": "Nifty Infra",
+    "displayName": "NINFRA",
+    "percentile": 0.682681,
+    "category": "THEMATIC"
+  },
+  {
+    "fullName": "Nifty Midcap 50",
+    "displayName": "NMC50",
+    "percentile": 0.684459,
+    "category": "BROAD"
+  },
+  {
+    "fullName": "NIFTY MIDCAP 100",
+    "displayName": "NMC100",
+    "percentile": 0.68957,
+    "category": "BROAD"
+  },
+  {
+    "fullName": "Nifty Commodities",
+    "displayName": "NCOMM",
+    "percentile": 0.693132,
+    "category": "THEMATIC"
+  },
+  {
+    "fullName": "NIFTY MID SELECT",
+    "displayName": "NMIDSEL",
+    "percentile": 0.713718,
+    "category": "BROAD"
+  },
+  {
+    "fullName": "NIFTY INDIA INTERNET",
+    "displayName": "NIINT",
+    "percentile": 0.716836,
+    "category": "THEMATIC"
+  },
+  {
+    "fullName": "Nifty New Consump",
+    "displayName": "NNACON",
+    "percentile": 0.721142,
+    "category": "THEMATIC"
+  },
+  {
+    "fullName": "Nifty GrowSect 15",
+    "displayName": "NGROW15",
+    "percentile": 0.723561,
+    "category": "STRATEGY"
+  },
+  {
+    "fullName": "Nifty Metal",
+    "displayName": "NMETAL",
+    "percentile": 0.725707,
+    "category": "SECTOR"
+  },
+  {
+    "fullName": "Nifty Top 15 EW",
+    "displayName": "NT15EW",
+    "percentile": 0.726084,
+    "category": "STRATEGY"
+  },
+  {
+    "fullName": "Nifty Trans Logis",
+    "displayName": "NTRANS",
+    "percentile": 0.729656,
+    "category": "THEMATIC"
+  },
+  {
+    "fullName": "Nifty Mobility",
+    "displayName": "NMOBIL",
+    "percentile": 0.733264,
+    "category": "THEMATIC"
+  },
+  {
+    "fullName": "Nifty Bank",
+    "displayName": "NBANK",
+    "percentile": 0.734218,
+    "category": "SECTOR"
+  },
+  {
+    "fullName": "Nifty HighBeta 50",
+    "displayName": "NHBETA50",
+    "percentile": 0.737949,
+    "category": "STRATEGY"
+  },
+  {
+    "fullName": "Nifty Mid Liq 15",
+    "displayName": "NMIDLIQ15",
+    "percentile": 0.740151,
+    "category": "THEMATIC"
+  },
+  {
+    "fullName": "Nifty India Corporate Group Index - Aditya Birla Group",
+    "displayName": "NBIRLA",
+    "percentile": 0.742361,
+    "category": "THEMATIC"
+  },
+  {
+    "fullName": "Nifty India Corporate Group Index - Mahindra Group",
+    "displayName": "NMAHIN",
+    "percentile": 0.744752,
+    "category": "THEMATIC"
+  },
+  {
+    "fullName": "Nifty Rural",
+    "displayName": "NRRL",
+    "percentile": 0.75009,
+    "category": "THEMATIC"
+  },
+  {
+    "fullName": "HSBC BUSINESS CYCLES FUND - REGULAR GROWTH",
+    "displayName": "NHSBCYCLE",
+    "percentile": 0.759806,
+    "category": "BROAD"
+  },
+  {
+    "fullName": "Nifty Auto",
+    "displayName": "NAUTO",
+    "percentile": 0.770232,
+    "category": "SECTOR"
+  },
+  {
+    "fullName": "Nifty500 Value 50",
+    "displayName": "N500V50",
+    "percentile": 0.771582,
+    "category": "STRATEGY"
+  },
+  {
+    "fullName": "Nifty FinSerExBnk",
+    "displayName": "NFINSEXB",
+    "percentile": 0.791999,
+    "category": "SECTOR"
+  },
+  {
+    "fullName": "Nifty200 Value 30",
+    "displayName": "N200V30",
+    "percentile": 0.804535,
+    "category": "STRATEGY"
+  },
+  {
+    "fullName": "Nifty PSE",
+    "displayName": "NPSE",
+    "percentile": 0.812093,
+    "category": "THEMATIC"
+  },
+  {
+    "fullName": "Nifty GS 10Yr Cln",
+    "displayName": "N5ARB",
+    "percentile": 0.812338,
+    "category": "STRATEGY"
+  },
+  {
+    "fullName": "Nifty CPSE",
+    "displayName": "NCPSE",
+    "percentile": 0.830109,
+    "category": "THEMATIC"
+  },
+  {
+    "fullName": "Nifty100 Liq 15",
+    "displayName": "NLCLIQ15",
+    "percentile": 0.850562,
+    "category": "THEMATIC"
+  },
+  {
+    "fullName": "Nifty MS Fin Serv",
+    "displayName": "NMSFINS",
+    "percentile": 0.85488,
+    "category": "SECTOR"
+  },
+  {
+    "fullName": "Nifty PSU Bank",
+    "displayName": "NPSUBANK",
+    "percentile": 0.884866,
+    "category": "SECTOR"
+  },
+  {
+    "fullName": "KOTAK CONTRA",
+    "displayName": "NCONTRA",
+    "percentile": 0.923615,
+    "category": "BROAD"
+  },
+  {
+    "fullName": "KOTAK GOLD",
+    "displayName": "NGOLD",
+    "percentile": 0.998498,
+    "category": "BROAD"
+  }
+]
